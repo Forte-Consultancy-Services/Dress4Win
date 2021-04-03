@@ -1,6 +1,7 @@
 Credits & Source from: 
--https://github.com/sendmail2krrish/eCommerce-site-using-Node-Express-js
--https://github.com/learngcpwithmahesh/Dress4Win
+
+- https://github.com/sendmail2krrish/eCommerce-site-using-Node-Express-js
+- https://github.com/learngcpwithmahesh/Dress4Win
 
 
 # Dress4Win
@@ -14,7 +15,7 @@ Credits & Source from:
 4. Restart MySQL Service using <b>systemctl restart mysql</b> <br/>
 5. Logging to mysql using <b>mysql -h 127.0.0.1 -u root -p</b>  <br/>
 6. Create a database named eCommerce using <b>CREATE DATABASE eCommerce </b> <br/>
-7. Run this command <b> GRANT ALL PRIVILEGES ON \*.\* TO 'root'@'localhost' WITH GRANT OPTION;</b> to allow mysql to be accessed from app-server <br/>
+7. Run this command <b>GRANT ALL PRIVILEGES ON \*.\* TO 'root'@'localhost' WITH GRANT OPTION;</b> and this command <b>FLUSH PRIVILEGES;</b> to allow mysql to be accessed from app-server <br/>
 7. Exit mysql session <br/>
 8. Change directory to home directory using <b>cd ~</b> and run <b> git clone https://github.com/Forte-Consultancy-Services/Dress4Win.git </b>  <br/>
 9. Change directory to Dress4Win/sql <br/>
