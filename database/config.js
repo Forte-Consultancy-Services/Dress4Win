@@ -3,7 +3,7 @@ var connection = mysql.createConnection({
   host     : '',
   port     : '3306',
   user     : 'root',
-  password : '',
+  password : 'P@ssW0rd2020',
   database : 'eCommerce'
 });
 
