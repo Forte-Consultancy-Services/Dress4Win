@@ -17,9 +17,9 @@ Credits & Source from:
 6. Create a database named eCommerce using <b>CREATE DATABASE eCommerce </b> <br/>
 7. Run this command <b>GRANT ALL PRIVILEGES ON \*.\* TO 'root'@'localhost' WITH GRANT OPTION;</b> and this command <b>FLUSH PRIVILEGES;</b> to allow mysql to be accessed from app-server <br/>
 7. Exit mysql session <br/>
-8. Change directory to home directory using <b>cd ~</b> and run <b> sudo git clone https://github.com/Forte-Consultancy-Services/Dress4Win.git </b>  <br/>
+8. Change directory to home directory using <b>cd ~</b> and run <b> git clone https://github.com/Forte-Consultancy-Services/Dress4Win.git </b>  <br/>
 9. Change directory to Dress4Win/sql <br/>
-10. Create the table schema using <b> mysql -h 127.0.0.1 -u root -p < ecommerce.sql </b> <br/>
+10. Create the table schema using <b> mysql -h 127.0.0.1 -u root -p eCommerce < /home/Dress4Win/sql/ecommerce.sql </b> <br/>
  
 ### Launching app-server
 1. Provision a Google Compute Engine (GCE) with below startup script <br/>
